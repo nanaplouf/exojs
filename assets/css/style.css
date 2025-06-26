@@ -9,7 +9,7 @@ body{
 h1{
     margin: 0;
     padding: 25px 25px;
-    color: rgb(255, 234, 0);
+    color: rgb(246, 200, 17);
     text-align: center;
     background-color: rgba(0, 0, 0, 0.847);
 }
@@ -25,6 +25,8 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
 }
 
 li{
@@ -32,7 +34,8 @@ li{
     padding: 30px;
     margin: 10px;
     list-style: none;
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
     box-shadow: rgba(246, 110, 31, 0.446) 1.95px 1.95px 2.6px;
+    text-align: center;
 }
